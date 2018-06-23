@@ -1,0 +1,225 @@
+@media screen and (max-width:770px) {
+    .name {
+        display: none;
+
+    }
+    .openDay {
+        text-align: right;
+    }
+    .text {
+        margin-bottom: 15px;
+    }
+
+}
+
+@media screen and (min-width:770px) {
+
+    .text {
+        display: none;
+    }
+    .openDay {
+        text-align: none;
+    }
+
+}
+
+/* fix image sm */
+
+@media screen and (max-width:768px) {
+    .divContainer {
+        max-width: 50%;
+    }
+}
+
+@media screen and (max-width:445px) {
+    .divContainer {
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width:993px) {
+    .address h4 {
+        text-align: center
+    }
+    .address {
+        height: 100px;
+    }
+}
+
+/*overLay and overLay elements responsiveness*/
+
+@media screen and (max-width:923px) {
+    .overLay {
+        height: 450px;
+        width: 50%;
+    }
+
+
+
+}
+
+@media screen and (max-width:695px) {
+    .overLay {
+        height: 450px;
+        width: 70%;
+    }
+
+
+
+}
+
+@media screen and (max-width:473px) {
+    .overLay {
+        height: 450px;
+        width: 80%;
+    }
+
+
+
+}
+
+@media screen and (max-width:422px) {
+    .overLay {
+        height: 450px;
+        width: 80%;
+
+    }
+    .overLay h1 {
+        font-size: 25px;
+
+    }
+    .overLayTwo,
+    .overLayFour {
+        width: 10%;
+        width: 10%;
+
+    }
+
+
+}
+
+@media screen and (max-width:350px) {
+    .overLay {
+        height: 450px;
+        width: 100%;
+    }
+
+
+
+
+}
+
+/*overLay and overLay elements responsiveness end* /
+
+/* shorcut and its eleemnts responsiveness*/
+
+@media screen and (max-width:575px) {
+    #shorcut {
+        height: 100px;
+        background: #121111;
+    }
+
+
+}
+
+@media screen and (max-width:385px) {
+    #shorcut {
+        height: 145px;
+        background: #121111;
+    }
+
+
+}
+
+@media screen and (max-width:768px) {
+
+    #lostKey {
+        height: 650px;
+    }
+    .layout {
+        height: 650px;
+        background: rgba(0, 0, 0, .8)
+    }
+
+}
+
+@media screen and (max-width:459px) {
+
+    #lostKey {
+        height: 1000px;
+
+    }
+    .layout {
+        height: 1000px;
+        background: rgba(0, 0, 0, .8);
+
+    }
+
+
+}
+
+@media screen and (max-width:316px) {
+
+    #aboutUs p {
+        margin: 15px 0px;
+
+    }
+
+
+}
+
+@media screen and (max-width:768px) {
+
+    .navbar-nav > li > a {
+        color: red;
+
+    }
+
+}
+
+@media screen and (max-width:439px) {
+
+    .modal-body {
+        height: 600px;
+
+
+    }
+}
+
+@media screen and (max-width:439px) {
+
+    .modal-body {
+        height: 800px;
+
+
+    }
+}
+
+@media screen and (max-width:281px) {
+
+    .modal-body {
+        height: 900px;
+
+
+    }
+}
+
+@media screen and (max-width:768px) {
+
+    .carousel-inner img {
+        height: 100px;
+
+
+
+    }
+}
+
+@media screen and (max-width:457px) {
+
+    .carousel-inner img {
+        height: 70px;
+
+
+
+    }
+}

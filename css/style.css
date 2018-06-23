@@ -1,0 +1,1118 @@
+* {
+    margin: 0;
+    padding: 0;
+
+    text-transform: capitalize;
+}
+
+
+
+h1 {
+    text-transform: uppercase;
+    font-family: Comic Sans MS;
+
+}
+
+body {
+    background: white;
+
+
+}
+
+#top {
+    padding: 15px 0px;
+    background: #323232;
+
+}
+
+.name,
+.footerheading,
+.text {
+    font-size: 20px;
+    color: white;
+    margin: 5px;
+    font-family: Comic Sans MS;
+    text-transform: uppercase;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.fa-twitter,
+.fa-google,
+.fa-instagram {
+    color: white;
+    padding: 12px;
+    border-radius: 50%;
+    margin: 5px 10px;
+    text-decoration: none;
+}
+
+.fa-twitter {
+    background: #29abe2;
+    -webkit-transition: .7s;
+    transition: .7s;
+}
+
+.fa-twitter:hover {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+
+}
+
+.fa-google {
+    background: red;
+    -webkit-transition: .7s;
+    transition: .7s;
+}
+
+.fa-google:hover {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+
+}
+
+.fa-instagram {
+    background: orange;
+    -webkit-transition: .7s;
+    transition: .7s;
+}
+
+.fa-instagram:hover {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+
+}
+
+.fa-facebook {
+    padding: 12px 15px;
+    background: #4867aa;
+    border-radius: 50%;
+    color: white;
+    margin: 5px 10px;
+    text-decoration: none;
+    -webkit-transition: .7s;
+    transition: .7s;
+}
+
+.fa-facebook:hover {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+
+
+}
+
+.text {
+    font-size: 20px;
+    color: white;
+    margin: 5px;
+    text-align: center;
+    font-family: western;
+
+}
+
+.navDiv {
+    background: #2a80bd;
+    height: 2px;
+    margin-top: -20px;
+
+}
+
+/* Customize bootstrap navbar */
+
+.navbar-nav > ul {
+    margin-left: 40px;
+}
+
+.navbar-nav > li > a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    line-height: 30px;
+    font-family: Comic Sans MS;
+
+
+}
+
+.nav > li > a {
+    position: relative;
+    display: block;
+    padding: 10px 18px;
+}
+
+.navbar-brand img {
+    margin-top: -15px;
+}
+
+/* Customize bootstrap navbar end */
+
+#background {
+    background: url(../img/TRON-Lamborghini-Aventador.jpg);
+
+    background-position: center;
+    height: 450px
+}
+
+.box {
+    height: 2px;
+    width: 35%;
+    background: #0a92d1;
+    margin: auto;
+}
+
+
+.overLay {
+    background: rgba(0, 141, 210, .4);
+    height: 450px;
+    width: 35%;
+    -webkit-transform: skewX(45deg);
+    transform: skewX(45deg);
+    position: relative;
+
+
+}
+
+.overLayTwo {
+    position: absolute;
+    height: 200px;
+    width: 25%;
+    background: #3a3b3a;
+}
+
+
+.overLayFour {
+    position: absolute;
+    height: 150px;
+    width: 25%;
+    background: rgba(0, 0, 0, .5);
+
+}
+
+
+.maninOverLay {
+    background: rgba(0, 0, 0, .7);
+    height: 450px;
+    position: relative;
+    overflow: hidden;
+}
+
+.boxText {
+    color: white;
+
+    width: 50%;
+    margin: 0px 50px;
+    margin-top: 150px;
+
+
+    -webkit-transform: skew(-45deg);
+
+
+    transform: skew(-45deg)
+}
+
+
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+    border-color: black;
+}
+
+.navbar-default {
+    background: #121111;
+    border: black;
+    border-radius: 0px;
+
+}
+
+.navbar-default-scroll {
+    background: rgba(0, 0, 0, .2);
+    background: rgba(0, 141, 210, .5);
+    border: rgba(0, 0, 0, .2);
+    border-radius: 0px;
+
+}
+
+.navbar-default .navbar-nav > li > a:focus {
+    color: white;
+    background: rgba(0, 141, 210, .6);
+}
+
+.navbar-default .navbar-nav > li > a {
+    -webkit-transition: 1s;
+    -webkit-transition: .7s;
+    transition: .7s;
+    color: white;
+    border-top: 2px solid transparent;
+
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+    background: rgba(0, 141, 210, .4);
+    color: white;
+    border-top: 2px solid #0a92d1;
+
+}
+
+#shorcut {
+    height: 50px;
+    background: #121111;
+}
+
+.allIcons {
+
+    max-width: 50%;
+    margin: auto;
+    text-align: center;
+}
+
+.allIcons a {
+    font-size: 25px;
+    color: white;
+    background: #2a80bd;
+    padding: 10px;
+    width: 90px;
+    text-align: center;
+    margin-top: 3px;
+    text-decoration: none;
+
+}
+
+#rightBar {
+    height: 450px;
+    width: 0px;
+    background: #2a80bd;
+    position: fixed;
+    top: 20%;
+    right: 0px;
+    z-index: 1;
+    border-radius: 20px;
+}
+
+#rightBarTwo {
+    height: 450px;
+    width: 0px;
+    background: #2a80bd;
+    position: fixed;
+    top: 20%;
+    right: 0px;
+    z-index: 1;
+    border-radius: 20px;
+
+
+}
+
+.closeBarMessege {
+    height: 30px;
+    width: 50px;
+    background: ;
+    width: 100%;
+    text-align: left;
+    padding: 5px;
+    text-decoration: none;
+    font-size: 16px;
+    color: white;
+
+
+}
+
+.closeBarMessege a {
+    color: white;
+
+}
+
+.closeBarMessegeContent h4 {
+
+    color: white;
+}
+
+.closeBarMessegeContent p {
+    font-size: 16px;
+    color: white;
+
+}
+
+
+
+.bigIcon {
+    margin: auto;
+    text-align: center;
+    font-size: 50px;
+    color: white
+}
+
+textarea {
+    resize: none;
+}
+
+#lostKey {
+    margin-top: 200px;
+}
+
+#services {
+    margin: 100px 0px;
+}
+
+.allPoster {
+    margin: 30px 0px;
+}
+
+.posterOne {
+
+    background: #2a80bd;
+    border-radius: 10px;
+    position: relative;
+
+
+
+}
+
+.posterOverlay {
+    position: absolute;
+    background: -webkit-gradient(linear, left top, left bottom, from(#2a80bd), color-stop(rgba(56, 136, 193, .5)), color-stop(rgba(56, 136, 193, .9)), to(#2a80bd));
+    background: linear-gradient(#2a80bd, rgba(56, 136, 193, .5), rgba(56, 136, 193, .9), #2a80bd);
+
+    height: 0%;
+    width: 100%;
+
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    -webkit-transition: .7s;
+    transition: .7s;
+    opacity: 0;
+
+
+
+}
+
+.posterOne:hover .posterOverlay {
+    border-radius: 10px;
+    height: 92%;
+    opacity: 1;
+}
+
+
+
+
+.overlayClose {
+    margin: auto;
+
+}
+
+.btn-warning {
+    font-weight: bold;
+
+    background: #3a3b3a;
+    border: 1px solid white;
+    -webkit-transition: .7s;
+    transition: .7s;
+}
+
+.btn-warning:hover {
+    font-weight: bold;
+
+    background: white;
+    border: 1px solid #3a3b3a;
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    color: black;
+}
+
+.btn-info {
+    background: #3a3b3a;
+    border: 1px solid #3a3b3a;
+    -webkit-transition: .7s;
+    transition: .7s;
+    font-weight: bold;
+}
+
+.btn-info:hover {
+    background: white;
+    border: 1px solid white;
+    color: black;
+
+}
+
+
+
+
+
+.posterOne i {
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+    padding: 50px;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+
+.battery i {
+
+    padding: 52px 45px;
+    border-radius: 50%;
+
+
+}
+
+.posterOne h4 {
+    padding: 10px;
+    color: white;
+}
+
+.posterOne p {
+    margin: 5px;
+    padding: 15px
+}
+
+.posterOne a {
+    margin: 20px;
+}
+
+
+
+
+
+
+
+
+.minlayOutOne {
+    height: 30px;
+    width: 45%;
+    background: #121111;
+    border-top-right-radius: 35px;
+    -webkit-transition: 1s;
+    transition: 1s;
+}
+
+.posterOne:hover .minlayOutOne {
+    width: 80%;
+}
+
+.minlayOutTwo {
+    height: 30px;
+    width: 70%;
+    background: #3a3b3a;
+    border-top-right-radius: 35px;
+    -webkit-transform: .5s;
+    transform: .5s;
+}
+
+.posterOne:hover .minlayOutTwo {
+    width: 70%;
+}
+
+
+
+.serviceIcons a {
+    color: white;
+    background: black;
+    margin-left: 20px;
+}
+
+#lostKey {
+    background: url(../img/mood%20off.jpg);
+    height: 450px;
+    background-attachment: fixed;
+    background-position: center center;
+    margin: 100px 0px;
+}
+
+.layout {
+    height: 450px;
+    background: rgba(0, 0, 0, .8)
+}
+
+#lostKey h1 {
+    color: white;
+}
+
+.lostKeyElements {
+    margin: 50px 0px;
+
+}
+
+.lostKeyElements img {
+    height: 200px;
+    width: 350px
+}
+
+.lostKeyElements h4 {
+    font-weight: bold;
+    color: white;
+}
+
+.lostKeyElements h3,
+p {
+    margin: 0px 10px;
+    color: white;
+
+}
+
+.lostKeyElements p {
+    font-size: 15px;
+    color: white;
+    margin-top: 30px;
+}
+
+/*modal Customize*/
+
+.modal-header {
+    background: #3a3b3a;
+    color: white;
+
+}
+
+.modal-title {
+    font-weight: bold;
+}
+
+.modal-title i {
+    margin: 0px 12px
+}
+
+.modal-body {
+    background: url(../img/key.png);
+    height: 500px;
+    background-position: center;
+    overflow: hidden;
+    padding: 0px;
+
+}
+
+.modal-overLay {
+    background: rgba(0, 0, 0, .9);
+    height: 900px;
+
+}
+
+
+
+.modal-body {
+    color: white;
+
+
+}
+
+.subheading {
+    font-weight: bold;
+    text-decoration: underline;
+    padding: 5px 0px;
+    margin: 10px;
+}
+
+.modal-footer {
+    background: #3a3b3a;
+}
+
+
+.productsImage {
+    margin-top: 50px
+}
+
+#gallary h4 {
+    color: white
+}
+
+#gallary p {
+    color: white;
+    width: 80%;
+}
+
+.productsImage {
+    border-right: 2px dotted gray;
+    border-bottom: 2px dotted gray;
+    position: relative;
+    overflow: hidden;
+    border: 1px solid #dddddd;
+
+}
+
+.productsImageTwo {
+    border-right: 2px dotted gray;
+    margin-bottom: 15px;
+    border: 1px solid #dddddd;
+    overflow: hidden;
+
+}
+
+/*Media query work */
+
+.productsImage img {
+
+
+    height: 350px;
+    width: 200px;
+    padding: 10px;
+    -webkit-transition: .7s;
+    transition: .7s;
+}
+
+.productsImage img:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+
+
+.productsImageTwo img {
+
+    height: 350px;
+    width: 200px;
+    -webkit-transition: .7s;
+    transition: .7s;
+
+}
+
+.productOverLay {
+    height: 0px;
+    width: 100%;
+    position: absolute;
+    background: rgba(56, 136, 193, .9);
+    -webkit-transition: .7s;
+    transition: .7s;
+    z-index: 1;
+    bottom: 0;
+    color: white;
+}
+
+.productOverLay p {
+    width: 80%;
+
+}
+
+.productOverLayTwo {
+    position: absolute;
+    height: 40px;
+    width: 0%;
+    background: #2a80bd;
+    -webkit-transition: .7s;
+    transition: .7s;
+    z-index: 1;
+    right: 0;
+    top: 0;
+    border-bottom-left-radius: 20px;
+
+}
+
+.productOverLayTwo h4 {
+    color: white;
+}
+
+.productOverLayThree {
+    position: absolute;
+    height: 40px;
+    width: 0%;
+    background: #3a3b3a;
+    -webkit-transition: .7s;
+    transition: .7s;
+    z-index: 1;
+    right: 0;
+    margin-top: 40px;
+    border-bottom-left-radius: 20px;
+    color: white;
+
+}
+
+.productsImage:hover .productOverLay {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    width: 100%;
+    height: 150px;
+}
+
+.productsImageTwo img:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    -webkit-transition: .7s;
+
+}
+
+
+.productsImageTwo:hover .productOverLay {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    width: 100%;
+    height: 150px;
+}
+
+.productsImage:hover .productOverLayTwo {
+
+    width: 60%;
+
+}
+
+.productsImage:hover .productOverLayThree {
+
+    width: 40%;
+
+}
+
+.productsImageTwo:hover .productOverLayTwo {
+
+    width: 60%;
+
+}
+
+.productsImageTwo:hover .productOverLayThree {
+
+    width: 40%;
+
+}
+
+#aboutUs {
+    background: url(../img/aboutUsback.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    height: 635px;
+    margin: 100px 0px;
+    color: white;
+    overflow: hidden;
+
+}
+
+.aboutUsOverLay {
+
+
+
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, .7)), to(rgba(56, 136, 193, .5)));
+
+
+
+    background: linear-gradient(rgba(0, 0, 0, .7), rgba(56, 136, 193, .5));
+    height: 450px;
+    position: relative;
+    overflow: hidden;
+}
+
+.triangle {
+    height: 500px;
+    background: #3a3b3a;
+    border-top: 1px solid #2a80bd;
+
+
+
+
+}
+
+.mintriangle {
+    height: 500px;
+    width: 1800px;
+    margin-left: -105px;
+    background: white;
+    -webkit-transform: rotate(-15deg);
+    transform: rotate(-15deg);
+    background: #2a80bd;
+
+}
+
+#aboutUs p {
+    margin: 30px 0px;
+    padding: 5px;
+    font-size: 15px;
+}
+
+/* carousel customize*/
+
+.brandImages {
+    margin: 50px 0px;
+    height: 180px;
+}
+
+.rule ol {
+    padding: 0px 5px;
+}
+
+.rule ol li {
+    font-size: 18px;
+    margin-bottom: 5px;
+
+}
+
+.rule {
+    margin-bottom: 100px;
+}
+
+.imp {
+    color: #2a80bd;
+
+}
+
+.emailBack {
+    background: url(../img/email.jpg);
+    height: 400px;
+    background-attachment: fixed;
+    position: center;
+
+}
+
+#email {
+    height: 800px;
+}
+
+#email h1,
+h3 {
+    color: white;
+    font-family: Comic Sans MS;
+}
+
+form {
+    background: rgba(56, 136, 193, .8);
+    padding: 20px;
+    margin: 30px 0px;
+    border-radius: 20px;
+    z-index: 1;
+
+
+}
+
+#email input {
+    margin: 15px 0px;
+
+}
+
+.emailOverLay {
+    background: rgba(0, 0, 0, .8);
+    height: 400px;
+    position: relative;
+
+}
+
+.btn-success {
+    padding: 10px;
+    font-weight: bold;
+    font-size: 20px;
+    -webkit-transition: .7s;
+    transition: .7s;
+}
+
+.btn-success:hover {
+    background: rgba(0, 0, 0, .8);
+}
+
+#Faq {}
+
+.faqElement {
+    margin: 50px 0px;
+}
+
+.faqElement p {
+    color: black;
+}
+
+.faq-c {
+    margin-bottom: 15px
+}
+
+#footer {
+    background: #2a80bd;
+
+    padding: 15px 0px;
+}
+
+#footer h3,
+p {
+    color: white;
+}
+
+.contactInfo {
+    margin: 20px 0px;
+}
+
+.contactInfo p {
+    font-size: 17px;
+
+}
+
+.contactInfo i {
+    margin-right: 15px
+}
+
+
+.blank {
+    overflow: hidden;
+    height: 300px;
+
+}
+
+.footertriangle {
+
+    height: 150px;
+    -webkit-transform: rotate(10deg);
+    transform: rotate(10deg);
+    width: 1400px;
+
+}
+
+
+.footertriangle {
+    background: #2a80bd;
+    border-top-left-radius: 500px;
+    height: 250px;
+    -webkit-transform: rotate(-10deg);
+    transform: rotate(-10deg);
+    width: 1700px;
+    z-index: -1;
+    margin-top: 150px;
+
+}
+
+#footer p {}
+
+.footerLeft {
+    border-right: 1px solid #3a3b3a;
+}
+
+.footermid {
+    border-right: 1px solid #3a3b3a;
+}
+
+.footerRight li {
+    color: white;
+    margin-bottom: 20px;
+    list-style: none;
+
+
+}
+
+.comment input {
+    margin-top: 2px;
+}
+
+.comment textarea {
+    background: #dddddd;
+}
+
+#contactToolBox {
+    background: white;
+    border: 2px solid #2d7bb3;
+    height: 80px;
+    width: 265px;
+    position: relative;
+    border-radius: 10px;
+    padding: 5px 0px;
+    position: absolute;
+    display: none;
+
+
+
+
+}
+
+#contactToolBoxTwo {
+    background: white;
+    border: 2px solid #2d7bb3;
+    height: 80px;
+    width: 265px;
+    position: relative;
+    border-radius: 10px;
+    padding: 5px 0px;
+    position: absolute;
+    display: none;
+}
+
+.contacttriangle {
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    background: white;
+    bottom: -26%;
+    left: 65%;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+    border: 2px solid #2d7bb3;
+    ;
+    border-left: none;
+    border-top: none;
+
+}
+
+#contactToolBox h4 {
+    font-weight: bold;
+    font-family: Comic Sans MS;
+    margin-top: 20px;
+
+}
+
+.contacttriangleTwo {
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    background: white;
+    bottom: -26%;
+    left: 48%;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+    border: 2px solid #2d7bb3;
+    ;
+    border-left: none;
+    border-top: none;
+
+
+
+}
+
+.floatingContact {
+    height: 222px;
+    background: transparent;
+    width: 252px;
+    position: fixed;
+    left: 0;
+    bottom: -2%;
+    z-index: 1;
+}
+
+
+
+.floatingContact i {
+    background: #2a80bd;
+    color: white;
+    padding: 10px;
+    border-radius: 50%;
+    margin: 2px;
+    margin-top: 12px;
+
+
+}
+
+.floatingContact a {
+
+    color: white;
+}
+
+.floatingContact img {
+    border-radius: 50%;
+    margin-top: 10px;
+    margin-left: 10px;
+
+}
+
+.mainBox {
+    margin-top: 90px;
+    background: white;
+    border: 2px solid #2a80bd;
+    position: relative;
+    z-index: -1;
+    border-radius: 10px;
+    display: none;
+
+
+}
+
+.mainBox a {
+    font-size: 20px;
+    color: #2a80bd;
+}
+
+.mainBoxIcon a {
+    font-size: 16px;
+}
